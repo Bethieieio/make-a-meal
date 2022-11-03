@@ -13,6 +13,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media only screen and (max-width: 800px) {
+
+    .mobile-background{
+        background-image: url(./images/mobile-background.jpg);
+        height: 100vh;
+        width: auto;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;     
+    }
+}
 
 .opaque-overlay {
     position: absolute;
