@@ -6,8 +6,8 @@ body {
 
 /* -------Backgrounds------- */
 .background-burger {
-    background-image: url(./images/desktop-background.jpg);
-    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.5),     rgba(0, 0, 0, 0.5)), url(./images/desktop-background.jpg);
+    min-height: 100vh;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 @media only screen and (max-width: 800px) {
 
     .background-burger{
-        background-image: url(./images/mobile-background.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),     rgba(0, 0, 0, 0.5)), url(./images/mobile-background.jpg);
     }
 }
 
@@ -66,3 +66,27 @@ body {
     padding: 20px;
 }
 
+/* -------footer------- */
+
+footer {
+color: #fafafa;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 40px;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+footer i {
+    font-size: 40px;
+}
+@media only screen and (max-width: 800px) {
+    footer i {
+        font-size: 15px;
+    }
+}
