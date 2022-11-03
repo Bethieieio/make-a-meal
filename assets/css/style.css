@@ -4,43 +4,65 @@ body {
     font-family: "Inter Tight", sans-serif;
 }
 
-/* -------Background------- */
-.desktop-background {
+/* -------Backgrounds------- */
+.background-burger {
     background-image: url(./images/desktop-background.jpg);
     height: 100vh;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
+
 @media only screen and (max-width: 800px) {
 
-    .mobile-background{
+    .background-burger{
         background-image: url(./images/mobile-background.jpg);
-        height: 100vh;
-        width: auto;
-        position: relative;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;     
     }
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
 }
 
 /* -------Title------- */
 
 .title {
     position: relative;
-    text-align: center;
     font-family: "Fugaz One", sans-serif;
     padding: 10px;
     color: darkgrey;
+    font-size: 75px;
 }
+
+/* -------generator------- */
+
+.generator{
+    padding: 30px;
+}
+
+.text-area div {
+    color: black;
+    background-color: #fafafa;
+    font-size: 30px;
+    font-family: "Inter Tight", sans-serif;
+    padding: 10px;
+}
+
+.generator-button {
+    font-family: "Fugaz One", sans-serif;
+    height: auto;
+    font-size: 33px;
+    border-radius: 25px;
+    margin: 5px 0;
+}
+
+.meal-button {
+    font-family: "Fugaz One", sans-serif;
+    height: auto;
+    font-size: 33px;
+    border-radius: 25px;
+    margin: 5px 0;
+}
+
+.row {
+    padding: 20px;
+}
+
