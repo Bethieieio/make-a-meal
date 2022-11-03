@@ -1,3 +1,34 @@
+/* -------General------- */
+
 body {
-    background-color: indigo;
+    font-family: "Inter Tight", sans-serif;
+}
+
+/* -------Background------- */
+.desktop-background {
+    background-image: url(./images/desktop-background.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* -------Title------- */
+
+.title {
+    position: relative;
+    text-align: center;
+    font-family: "Fugaz One", sans-serif;
+    padding: 10px;
+    color: darkgrey;
 }
