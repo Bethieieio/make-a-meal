@@ -27,7 +27,30 @@ console.log(getSecond())
 console.log(getThird())
 console.log(getMeal())
 
-document.getElementById('main-food').innerText = getMain();
-document.getElementById('second-food').innerText = getSecond();
-document.getElementById('third-food').innerText = getThird();
-document.getElementById('comp-meal').innerText = getMeal();
+const setMain = () => {
+    document.getElementById('main-food').innerText = getMain();
+}
+
+const setSecond = () => {
+    document.getElementById('second-food').innerText = getSecond();
+}
+
+const setThird = () => {
+    document.getElementById('third-food').innerText = getThird();
+}
+
+const setMeal = () => {
+    document.getElementById('comp-meal').innerText = getMeal();
+}
+
+document.getElementById('main')
+    .addEventListener('click', setMain);
+
+document.getElementById('second')
+    .addEventListener('click', setSecond);
+
+document.getElementById('third')
+    .addEventListener('click', setThird);
+
+document.getElementById('meal')
+    .addEventListener('click', setMeal);
