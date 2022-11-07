@@ -6,6 +6,8 @@
 - It also chooses an option for a mealy meal eg: pasta bolognase.
 - I use html, css, javascript and bootstrap.
 
+- You can find it [here](https://bethieieio.github.io/make-a-meal/)
+
 ## media
 
 - [Mobile Background Image](https://www.pexels.com/photo/burger-on-brown-wooden-tray-1108117/) Jonathan Borba
@@ -16,5 +18,5 @@
 
 ## future installments I would like to add one day
 - add more aria stuff to screen readers and use it.
-- add a cool hover on the buttons
-- more indepth read me
+- add a cool hover on the buttons.
+- more indepth read me.
