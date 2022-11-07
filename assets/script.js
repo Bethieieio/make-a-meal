@@ -30,15 +30,12 @@ console.log(getMeal())
 const setMain = () => {
     document.getElementById('main-food').innerText = getMain();
 }
-
 const setSecond = () => {
     document.getElementById('second-food').innerText = getSecond();
 }
-
 const setThird = () => {
     document.getElementById('third-food').innerText = getThird();
 }
-
 const setMeal = () => {
     document.getElementById('comp-meal').innerText = getMeal();
 }
