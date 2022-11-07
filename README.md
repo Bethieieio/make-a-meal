@@ -1,4 +1,4 @@
-# make-a-meal
+# :hamburger: make-a-meal
 
 - Hi, I'm Beth, I am a "Code Institute Student".
 - Make a Meal was made for a colleague of mine to help him decide what he wanted for dinner.
